@@ -1,0 +1,84 @@
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ui li a:hover{
+    color: rgb(1, 15, 15);
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(5, 4, 18);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav {
+    background-color: #333;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    padding: 14px 20px;
+}
+nav ul li a {
+    color: rgb(9, 9, 9);
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    background-color: #f80063;
+    color: rgb(9, 9, 9);
+    padding: 14px 20px;
+}
+
+.A {
+    display:flex;
+}
+header {
+    background-color: #f8006c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 100px;
+    text-align: center;
+}
+.featured-cakes {
+
+    display: grid;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: left;
+    border: 2px solid lightcoral;
+    background-color: rgb(235, 203, 165);
+    box-shadow: 4px 6px 3px grey;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.cake img {
+    width: 30%;
+    border-radius: 300px;
+}
